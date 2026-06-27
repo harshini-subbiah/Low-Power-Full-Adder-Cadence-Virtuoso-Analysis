@@ -1,56 +1,171 @@
-Low-Power Full Adder Design & Technology Node Analysis
-Cadence Virtuoso | CMOS VLSI | GPDK180 / GPDK090 / GPDK045
-Overview
+# Low-Power CMOS Full Adder Design & Technology Node Analysis
 
-This project investigates the design and optimization of low-power CMOS Full Adders at the transistor level using Cadence Virtuoso. Multiple Full Adder implementations were analyzed across different CMOS technology nodes (180 nm, 90 nm, and 45 nm) to study the impact of technology scaling on:
+## Overview
 
-Power Consumption
-Propagation Delay
-Area Efficiency
-Overall Design Performance
+This project presents the transistor-level implementation and comparative analysis of multiple CMOS Full Adder architectures designed using **Cadence Virtuoso**.
 
-The work demonstrates how transistor-level design choices influence the Power-Delay trade-off in arithmetic circuits used in modern ASICs and SoCs. The report compares conventional CMOS and pass-transistor-based implementations and examines their behavior under different technology nodes.
+Four different Full Adder configurations were implemented and simulated using three CMOS technology nodes:
 
-Objectives
-Design transistor-level CMOS Full Adders
-Simulate multiple Full Adder configurations
-Compare CMOS technology nodes
-Measure propagation delay
-Measure dynamic power consumption
-Analyze technology scaling effects
-Identify the most efficient Full Adder architecture
-Technologies Used
-Tool	Purpose
-Cadence Virtuoso	Schematic Design
-Spectre Simulator	Circuit Simulation
-GPDK180	180 nm CMOS
-GPDK090	90 nm CMOS
-GPDK045	45 nm CMOS
-CMOS Logic	Digital Circuit Design
-Full Adder Configurations
+- 180 nm (GPDK180)
+- 90 nm (GPDK090)
+- 45 nm (GPDK045)
 
-The project compares four transistor-level implementations of a Full Adder including conventional CMOS and CPL/pass-transistor based designs. Each configuration was implemented and evaluated under three CMOS technology nodes to compare power and timing characteristics.
+The objective was to evaluate the impact of technology scaling on:
 
-Technology Nodes Evaluated
-180 nm
-90 nm
-45 nm
-Performance Metrics
+- Power Consumption
+- Propagation Delay
+- Power-Delay Tradeoff
+- Area Efficiency
 
-The following metrics were analyzed:
+The study compares conventional CMOS logic with optimized transistor-level implementations to identify the most power-efficient architecture.
 
-Average Power Consumption
-Propagation Delay
-Power-Delay Trade-off
-Technology Scaling Behaviour
-Key Results
+---
 
-✔ Successfully implemented Full Adder circuits in Cadence Virtuoso.
+## Features
 
-✔ Compared four transistor-level architectures.
+✔ Cadence Virtuoso schematic design
 
-✔ Evaluated performance across three CMOS technology nodes.
+✔ CMOS transistor-level implementation
 
-✔ Observed significant reductions in power consumption and propagation delay as technology scaled from 180 nm to 45 nm.
+✔ Multi-technology comparison
 
-✔ Demonstrated the trade-offs between different logic styles and transistor-level implementations.
+✔ Power analysis
+
+✔ Delay analysis
+
+✔ Waveform verification
+
+✔ Technology node scaling study
+
+✔ Engineering report
+
+---
+
+## Technologies Used
+
+| Tool | Purpose |
+|-------|----------|
+| Cadence Virtuoso | Schematic Design |
+| Spectre Simulator | Circuit Simulation |
+| GPDK180 | Technology Library |
+| GPDK090 | Technology Library |
+| GPDK045 | Technology Library |
+
+---
+
+## Project Objectives
+
+- Design multiple CMOS Full Adder architectures
+- Compare different transistor implementations
+- Analyze technology scaling
+- Evaluate propagation delay
+- Measure average power consumption
+- Determine the most efficient architecture
+
+---
+
+## Full Adder Configurations
+
+### Configuration 1
+
+Traditional CMOS Full Adder built using basic logic gates.
+
+![Config1](Images/config1.png)
+
+---
+
+### Configuration 2
+
+Optimized CMOS implementation with reduced transistor count.
+
+![Config2](Images/config2.png)
+
+---
+
+### Configuration 3
+
+Alternative transistor-level Full Adder architecture.
+
+![Config3](Images/config3.png)
+
+---
+
+### Configuration 4
+
+Low-power optimized Full Adder architecture.
+
+![Config4](Images/config4.png)
+
+---
+
+## Simulation Results
+
+The circuits were simulated across:
+
+- GPDK180
+- GPDK090
+- GPDK045
+
+Power and propagation delay were measured for each configuration.
+
+### Example Waveforms
+
+![Waveform](Images/waveform1.png)
+
+---
+
+## Technology Comparison
+
+| Technology | Power | Delay |
+|------------|---------|---------|
+|180 nm|Higher|Higher|
+|90 nm|Medium|Medium|
+|45 nm|Lowest|Lowest|
+
+---
+
+## Key Findings
+
+- Technology scaling significantly reduces power consumption.
+- 45 nm demonstrated the lowest average power.
+- Propagation delay also reduced with technology scaling.
+- Proper transistor sizing remains essential for optimal performance.
+- Different Full Adder architectures exhibit different power-delay tradeoffs.
+
+---
+
+## Skills Demonstrated
+
+- CMOS Logic Design
+- Digital VLSI
+- Transistor-Level Circuit Design
+- Cadence Virtuoso
+- Spectre Simulation
+- Timing Analysis
+- Power Analysis
+- Semiconductor Technology Scaling
+- Engineering Documentation
+
+---
+
+---
+
+## Future Improvements
+
+- Layout Design
+- DRC Verification
+- LVS Verification
+- Post-layout Simulation
+- Power Delay Product Optimization
+- 28 nm Technology Migration
+- FinFET Technology Comparison
+
+---
+
+## Author
+
+Harshini S
+
+Electronics and Communication Engineering
+
+VLSI | Embedded Systems | Digital Design
