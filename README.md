@@ -46,7 +46,6 @@ The study compares conventional CMOS logic with optimized transistor-level imple
 | Tool | Purpose |
 |-------|----------|
 | Cadence Virtuoso | Schematic Design |
-| Spectre Simulator | Circuit Simulation |
 | GPDK180 | Technology Library |
 | GPDK090 | Technology Library |
 | GPDK045 | Technology Library |
