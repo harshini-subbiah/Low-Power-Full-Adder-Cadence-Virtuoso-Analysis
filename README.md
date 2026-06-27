@@ -70,7 +70,7 @@ The study compares conventional CMOS logic with optimized transistor-level imple
 
 Traditional CMOS Full Adder built using basic logic gates.
 
-![Config1](Images/config1.png)
+![Config1](Images/config1.jpg)
 
 ---
 
@@ -78,7 +78,7 @@ Traditional CMOS Full Adder built using basic logic gates.
 
 Optimized CMOS implementation with reduced transistor count.
 
-![Config2](Images/config2.png)
+![Config2](Images/config2.jpg)
 
 ---
 
@@ -86,7 +86,7 @@ Optimized CMOS implementation with reduced transistor count.
 
 Alternative transistor-level Full Adder architecture.
 
-![Config3](Images/config3.png)
+![Config3](Images/config3.jpg)
 
 ---
 
@@ -94,7 +94,7 @@ Alternative transistor-level Full Adder architecture.
 
 Low-power optimized Full Adder architecture.
 
-![Config4](Images/config4.png)
+![Config4](Images/config4.jpg)
 
 ---
 
@@ -110,7 +110,7 @@ Power and propagation delay were measured for each configuration.
 
 ### Example Waveforms
 
-![Waveform](Images/waveform1.png)
+![Waveform](Images/waveform1.jpg)
 
 ---
 
