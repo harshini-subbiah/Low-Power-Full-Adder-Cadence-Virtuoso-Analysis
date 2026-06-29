@@ -63,40 +63,6 @@ The study compares conventional CMOS logic with optimized transistor-level imple
 
 ---
 
-## Full Adder Configurations
-
-### Configuration 1
-
-Traditional CMOS Full Adder built using basic logic gates.
-
-![Config1](Images/config1.jpg)
-
----
-
-### Configuration 2
-
-Optimized CMOS implementation with reduced transistor count.
-
-![Config2](Images/config2.jpg)
-
----
-
-### Configuration 3
-
-Alternative transistor-level Full Adder architecture.
-
-![Config3](Images/config3.jpg)
-
----
-
-### Configuration 4
-
-Low-power optimized Full Adder architecture.
-
-![Config4](Images/config4.jpg)
-
----
-
 ## Simulation Results
 
 The circuits were simulated across:
@@ -106,10 +72,6 @@ The circuits were simulated across:
 - GPDK045
 
 Power and propagation delay were measured for each configuration.
-
-### Example Waveforms
-
-![Waveform](Images/waveform1.jpg)
 
 ---
 
@@ -133,41 +95,9 @@ Power and propagation delay were measured for each configuration.
 
 ---
 
-## Skills Demonstrated
-
-- CMOS Logic Design
-- Digital VLSI
-- Transistor-Level Circuit Design
-- Cadence Virtuoso
-- Spectre Simulation
-- Timing Analysis
-- Power Analysis
-- Semiconductor Technology Scaling
-- Engineering Documentation
-
----
-
----
-
-## Future Improvements
-
-- Layout Design
-- DRC Verification
-- LVS Verification
-- Post-layout Simulation
-- Power Delay Product Optimization
-- 28 nm Technology Migration
-- FinFET Technology Comparison
-
----
-
 ## Author
 
 Harshini S
-
-Electronics and Communication Engineering
-
-VLSI | Embedded Systems | Digital Design
 
 ---
 
